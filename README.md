@@ -6,7 +6,6 @@
 
 ## Problema Proposto
 
-CORRIGIR AQUI
 Criar uma aplicação capaz de receber informações de um atleta, bem como calcular parâmetros e exibi-los para o usuário.
 Condições:
 - 5 jurados avaliarão os atletas;
@@ -16,10 +15,11 @@ Condições:
 
 ### Especificações
 
-Criar uma função capaz de receber uma matriz de objetos contendo o nome do atleta e as cinco notas atribuídas. A sua função deverá calcular a média das notas sem considerar a maior e menor nota do atleta. Por fim, deverá apresentar ao usuário o nome de cada atleta, seguido das notas e da média calculada.
+Criar uma classe Atleta para concentrar os atributos e métodos dos atletas. A classe deverá receber os seguintes atributos: nome, idade, peso, altura, notas.
+A média das notas não deve considerar a maior e menor nota do atleta. Por fim, apresentar ao usuário: nome, idade, peso, altura, notas, categoria, IMC e Média válida.
 
 ## Solução do Problema:
-
+CONTINUAR DAQUI
 - Desenvolvimento da classe CompeticaoGinasticaArtistica(atletas).
 
 ### Entrada da Classe: argumento
