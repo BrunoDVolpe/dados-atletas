@@ -1,16 +1,18 @@
-# Pontuação dos Atletas
+# Dados dos Atletas
 
-![preview](./_.github/preview.PNG)
+![preview](./_.github/preview.png)
 
-> Projeto de Certificação 1 - Pontuação dos Atletas<br>Esse projeto faz parte da "Trilha 1. Lógica de Programação", do curso DEVstart pertencente ao SENAI.<br>Minha turma: FloripaMaisTec
+> Projeto de certificação 2 – Dados dos atletas<br>Esse projeto faz parte da "Trilha 1. Lógica de Programação", do curso DEVstart pertencente ao SENAI.<br>Minha turma: FloripaMaisTec
 
 ## Problema Proposto
 
-Aplicação capaz de receber o nome e as notas de um atleta, calcular a média e apresentar ao usuário.
+CORRIGIR AQUI
+Criar uma aplicação capaz de receber informações de um atleta, bem como calcular parâmetros e exibi-los para o usuário.
 Condições:
 - 5 jurados avaliarão os atletas;
 - Cada jurado pode fornecer uma nota de um (1) a dez (10);
 - A média é calculada com base nas três notas do meio, desconsiderando a maior e menor nota.
+- Categoria: Infantil: 9 a 11 anos / Juvenil: 12 e 13 anos / Intermediário: 14 e 15 anos / Adulto: 16 a 30 anos / Sem categoria: demais idades
 
 ### Especificações
 
