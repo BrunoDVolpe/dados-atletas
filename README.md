@@ -19,46 +19,41 @@ Criar uma classe Atleta para concentrar os atributos e métodos dos atletas. A c
 A média das notas não deve considerar a maior e menor nota do atleta. Por fim, apresentar ao usuário: nome, idade, peso, altura, notas, categoria, IMC e Média válida.
 
 ## Solução do Problema:
-CONTINUAR DAQUI
-- Desenvolvimento da classe CompeticaoGinasticaArtistica(atletas).
 
-### Entrada da Classe: argumento
+- Desenvolvimento da classe Atleta.
 
-- O argumento de criação da classe, "atletas" é uma matriz de objetos. Cada objeto contém nome (string) e matriz de notas (números).
+### Entrada da Classe: argumentos
+
+- O argumento de criação da classe, "Atleta" é composto por 5 argumentos: nome (string), idade (int), peso (float), altura (float), notas (matriz de números float).
 
 ###### Exemplo de entrada:
 
->let atletas = [
-<br> {
-<br>   nome: "Nome_do_Atleta_1",
-<br>   notas: [10, 9.34, 8.42, 10, 7.88]
-<br> },
-<br> {
-<br>   nome: "Nome_do_Atleta_2",
-<br>   notas:  [8, 10, 10, 7, 9.33]
-<br> }]
+>const atleta = new Atleta("nome_do_atleta",
+<br>    idade, peso, altura,
+<br>    [nota1, nota2, nota3, nota4, nota5]);
 
 ### Saída
 
-- Exibe no console o nome do atleta, as notas recebidas e a média das notas, utilizando a regra de excluir a maior e a menor nota do atleta.
+- Exibe no console o nome do atleta, idade, peso, altura, notas, categoria, IMC e Média válida, utilizando a regra de excluir a maior e a menor nota do atleta.
 
 ###### Exemplo de saída:
 
->Atleta: Nome_do_Atleta_1
-<br>Notas Obtidas: 7.88,8.42,9.34,10,10
-<br>Média Válida: 9.253333333333333
->
-><br>Atleta: Nome_do_Atleta_2
-<br>Notas Obtidas: 7,8,9.33,10,10
-<br>Média Válida: 9.11
+>Nome: Nome Atleta
+<br>Idade: 30
+<br>Peso: 80
+<br>Altura: 1.7
+<br>Notas: 10,9.34,8.42,10,7.88
+<br>Categoria: Adulto
+<br>IMC: 27.68166089965398
+<br>Média válida: 9.253333333333333
 
 ### Uso da classe
 
-- Para usar, deve-se criar uma nova instância da classe CompeticaoGinasticaArtistica passando a lista dos atletas conforme a entrada descrita acima.
-> let competicaoAlunos = new CompeticaoGinasticaArtistica(atletas)
+- Para usar, deve-se criar uma nova instância da classe Atleta para cada atleta, passando os 5 argumentos de entrada, conforme a entrada descrita acima.
+> const atleta = new Atleta("Nome Atleta", 30, 80, 1.70, [10, 9.34, 8.42, 10, 7.88]);
 
-- Para exibir o resultado, basta chamar o método obterResultados() que exibirá no console o resultado dos alunos.
-> competicaoAlunos.obterResultados();
+- Para exibir o resultado, basta chamar o método exibirResultado() que exibirá no console os dados do atleta, conforme o modelo de saída.
+> atleta.exibirResultado();
 
 ## Tecnologias
 
